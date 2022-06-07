@@ -1,19 +1,8 @@
 <P>This is our first day of course</P>
 
+colspan
+rowspan
 
-Introduction
-<body style="background-color:beige">
-<center><p style="color:blue;"></center>
-<center>
-<h1>....<h6>
-<b>
-<i>
-<u>
-<ul>
-<ol>
-<li>
+The id attribute specifies a unique id for an HTML element. The value of the id attribute must be unique within the HTML document.
 
-Web development course parts:
-1. HTML
-2. CSS
-3. Javascript
+The id attribute is used to point to a specific style declaration in a style sheet. It is also used by JavaScript to access and manipulate the element with the specific id.
