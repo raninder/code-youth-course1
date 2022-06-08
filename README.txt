@@ -22,3 +22,8 @@ My HTML files
 . table
 .List
 .into
+
+
+
+
+two methods- get and post

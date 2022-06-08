@@ -13,7 +13,9 @@
 </head>
 <body>
 	
-	<form name="register" method="get">
+	<form name="register">
+		<fieldset>
+			<legend>Registeration</legend>
 		<table>
 			<tr>
 	<td>	<label>Name </td>
@@ -27,20 +29,42 @@
 		<br/><br/>
 		Description:<textarea rows="5" cols="20" name="desc"> </textarea>
 		<br/><br/>
-		Email: <input type="email" name="email" />
+		Email<span style="color:red">*</span>: <input type="email" name="email" required/>
+		<br/><br/>
+		<input type="hidden" name="hidden" value="123"/>
+		URL: <input type="url" name="url" id="url" placeholder="https://example.com"/>
+		<br/><br/>
+		Search: <input type="search" name="search" size="100" />
 		<br/><br/>
 		Date: <input type="date" name="date" value="2022-06-07" />
 		<br/><br/>
 		Select your subject:
-			<input type="checkbox" name="Maths" value="math">Maths
+			<input type="checkbox" name="Maths" value="math" checked>Maths
 			<input type="checkbox" name="science" value="science">Science
 			<input type="checkbox" name="history" value="history">History
 		<br/><br/>
 		<label for="gender">Gender</label>
 		<input type="radio" name="gender" id="gender" value="male"> Male
-		<input type="radio" name="gender" id="gender" value="female">Female
-		<input type="submit" value="Register" />	
-
+		<input type="radio" name="gender" id="gender" value="female" checked>Female
+		
+		
+		<br />
+		<label for="list">Languages known:</label>
+		<select name="list" multiple="multiple" id="list">
+			<option value="eng">English</option>
+			<option value="fr" selected>French</option>
+			<option value="man">Madarin</option>
+		</select>
+		<br />
+		<br />
+		Upload your image:
+		<input type="file" name="upload" accept="image/*"/>
+		<input type="submit" value="Register" />
+		<input type="reset" value="reset" />
+		<input type="image" src="https://i0.wp.com/www.csscodelab.com/wp-content/uploads/2019/11/finger-print-login-black-biometirics-css-button.png?fit=847%2C565&ssl=1" height="60" width="100" />
+		<input type="button" value="click" onclick="alert('hi')" />
+		<button onclick="alert('hi')"> Alert </button>
+	</fieldset>
 	</form>
 </body>
 </html>
