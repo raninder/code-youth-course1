@@ -5,25 +5,33 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Form</title>
+	<link re="stylesheet" href="style.css">
 	<style>
 		label{
 			color:green;
 		}
 	</style>
+	<script>
+		let d = new Date();
+			alert('today date is' + d);
+	</script>
+
 </head>
 <body style="background-color: cornsilk;">
 	
-	<form name="register">
-		<fieldset>
+	<form name="register" action="filename" method="get">
+		<fieldset >
 			<legend>Registeration</legend>
 		<table>
 			<tr>
 	<td>	<label>Name </td>
-		 <input type="text" name="fname" size="20" placeholder="john"/>
+		 <input type="text" name="fname" size="20" maxlength="20" placeholder="john"/>
 		</label>
 		  <br /> <br/>
 			<label for="adr">Address1</label>
-		 <input type="text" name="adr" id="adr" />
+		 <input type="text" name="adress" id="adr" />
+		<br/><br/>
+		<input type="text" name="date" id="date" placeholder="dd-mm-yyyy"/>
 		<br/><br/>
 		Password: <input type="password" name="pswd" />
 		<br/><br/>
@@ -41,7 +49,7 @@
 		Time: <input type="time" name="time" value="11:30" />
 		<br/><br/>
 		Select your subject:
-			<input type="checkbox" name="Maths" value="math" checked>Maths
+			<input type="checkbox" name="maths" value="math" checked>Mathematics
 			<input type="checkbox" name="science" value="science">Science
 			<input type="checkbox" name="history" value="history">History
 		<br/><br/>
@@ -53,20 +61,37 @@
 		<br />
 		<label for="list">Languages known:</label>
 		<select name="list" multiple="multiple" id="list">
+			<optgroup label="Languages">
 			<option value="english">English</option>
 			<option value="french" selected>French</option>
 			<option value="mandarin">Madarin</option>
+		</optgroup>
+		<optgroup label="Test">
+			<option value="english">Test1</option>
+			<option value="french" selected>Test2</option>
 		</select>
 		<br />
 		<br />
+		<input type="color" id="head" name="head"
+           value="#e66465">
+    <label for="head">Head</label>
+		
+		<br/>
+		<br/>
 		Upload your image:
 		<input type="file" name="upload" accept="image/*"/>
 		<input type="submit" value="Register" />
 		<input type="reset" value="reset" />
 		<input type="image" src="https://i0.wp.com/www.csscodelab.com/wp-content/uploads/2019/11/finger-print-login-black-biometirics-css-button.png?fit=847%2C565&ssl=1" height="60" width="100" />
 		<input type="button" value="click" onclick="alert('hi')" />
-		<button onclick="alert('hi')"> Alert </button>
+		<button onclick="setalert()"> Alert </button>
 	</fieldset>
 	</form>
+<script>
+	function setalert(){
+		alert("welcome");
+	}
+</script>
+
 </body>
 </html>

@@ -27,3 +27,14 @@ My HTML files
 
 
 two methods- get and post
+
+fieldset
+
+pg245-css
+
+The <span> tag is an inline container used to mark up a part of a text, or a part of a document.
+
+header footer
+http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/introducing-html5-footer-header-nav-article-section-and-aside-elements/
+
+https://www.skptricks.com/2018/02/html5-layout-design-from-scratch-including-header-and-footer-design.html
