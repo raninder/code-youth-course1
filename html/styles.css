@@ -1,0 +1,13 @@
+p,td {
+	/* color:blue; */
+	font-family:Verdana, Geneva, Tahoma, sans-serif;
+	
+}
+*{
+	background-color: aqua;
+	color:crimson;
+}
+h2{
+	color:green;
+	background-color: darkgray;
+}

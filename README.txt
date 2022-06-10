@@ -23,8 +23,40 @@ My HTML files
 .List
 .into
 
+3 ways of including css:
+1. inline style
+<p style="color:blue"
+<h1 style="align:center">
+
+2. Internal css
+using <style> in head
+<style>
+
+syntax:
+selector
+p{
+	color:red;
+	font-family:"times 
+}
+
+3. External css
+<link rel="stylesheet" href="test.css" />
 
 
+<a href="https://www.w3schools.com/tags/tag_base.asp>w3 schools</a>
+
+<pre> sdasf fdsdg sgesrfgdssdf          dsgfsdgdf
+
+
+
+safasad
+</p>
+block elements
+<h1>jhhjh</h1>
+jdhjsa
+inline elements
+<p> This is <b>first</b> paragraph</p>
+This is text
 
 two methods- get and post
 
