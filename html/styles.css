@@ -7,7 +7,12 @@ p,td {
 	background-color: aqua;
 	color:crimson;
 }
-h2{
+h2#red{
+	font-size: 20px;;
 	color:green;
 	background-color: darkgray;
+}
+
+p#para{
+	text-transform: uppercase;
 }

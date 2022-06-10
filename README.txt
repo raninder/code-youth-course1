@@ -43,11 +43,22 @@ p{
 <link rel="stylesheet" href="test.css" />
 
 
+Selectors:
+regular html tags/elements
+id  - unique identifier for an element
+class - 
+
 <a href="https://www.w3schools.com/tags/tag_base.asp>w3 schools</a>
 
 <pre> sdasf fdsdg sgesrfgdssdf          dsgfsdgdf
 
 
+ex: create a webpage which dispaly "hello world" with font size 20 pixels, bold format, in time new Roman and green in colour, background in aqua using
+inline css
+embedded css
+external css
+
+<div>
 
 safasad
 </p>
