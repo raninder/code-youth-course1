@@ -60,6 +60,14 @@ external css
 
 <div>
 
+#blue_background_white_color{
+
+}
+h1.blue.....{
+
+}
+.blue_background_white_color
+
 safasad
 </p>
 block elements
@@ -81,3 +89,5 @@ header footer
 http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/introducing-html5-footer-header-nav-article-section-and-aside-elements/
 
 https://www.skptricks.com/2018/02/html5-layout-design-from-scratch-including-header-and-footer-design.html
+
+https://github.com/TheOdinProject/css-exercises/blob/main/margin-and-padding/01-margin-and-padding-1/desired-outcome.png?raw=true
