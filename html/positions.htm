@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Position</title>
+	<style>
+		body{
+			height:1000px;
+		}
+		/* .parent{
+			position:relative;
+			margin:20px;
+			border:2px solid red;
+			width:50%;
+		} */
+		.div1{
+		
+			border:1px solid blue;
+			padding: 5px;
+			margin:5px;
+		}
+		#div2{
+			/* position:relative; */
+			/* position:absolute; */
+			position:fixed;
+			left:30px;
+			top:30px;
+			border:1px solid green;
+			padding: 5px;
+			/* margin:5px; */
+		}
+	</style>
+</head>
+<body>
+	<div class="parent">
+		<div class="div1">One</div>
+		<div id="div2">Two</div>
+		<div class="div1">Three</div>
+	</div>
+</body>
+</html>
