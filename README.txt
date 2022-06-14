@@ -90,4 +90,7 @@ http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-
 
 https://www.skptricks.com/2018/02/html5-layout-design-from-scratch-including-header-and-footer-design.html
 
+margin and padding exercises
 https://github.com/TheOdinProject/css-exercises/blob/main/margin-and-padding/01-margin-and-padding-1/desired-outcome.png?raw=true
+
+table exerciseshttp://www.codingfusion.com/Post/12-beautiful-HTML-table-examples-for-beginners-to
