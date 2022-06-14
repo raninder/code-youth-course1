@@ -4,13 +4,80 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-
+	<title>Table</title>
+<style>
+	table, td,th{
+		border:1px solid black;
+	}
+	td,th{
+		padding:10px;
+		height:30px;
+		/* text-align:center; */
+	}
+	th{
+		background-color: blanchedalmond;
+		/* height:30px; */
+	}
+	/* td{
+		background-color:cornsilk;
+	} */
+	/* tr{
+		background-color:cornsilk;
+	} */
+	/* tr:nth-child(even){
+		background-color:darkkhaki;
+	}
+	
+	tr:nth-child(odd){
+		background-color:lightskyblue;
+		color:green;
+	} */
+	#red{
+		/* color:red; */
+		background-color: yellow;
+	}
+	table#table1{
+		border-collapse: collapse;
+		margin:20px;
+	}
+	col{
+		background-color: mediumturquoise;
+	}
+</style>
 
 </head>
 <body>
 	<article>
-	<table border=1 cellpadding=5 cellspacing=0>
+	<table id="table1">
+		<caption>Students</caption>
+		<col></col>
+	
+		<!-- <thead> -->
+		<tr>
+			<th colspan=6>Name</th>
+			<th>Email</th>
+			<th> Phone</th>
+		</tr>
+	<!-- </thead> -->
+	<tbody>
+		<tr>
+			<td>ABC</td>
+			<td>Dhillon</td>
+			<td> abc@gmail.com</td>
+			<td>12345678</td>
+			
+		</tr>
+<tr><td colspan=4></td></tr>
+		<tr>
+			<td>Mike</td>
+			<td> </td>
+			<td> mike@gmail.com</td>
+			<td id="red">222345678</td>
+		</tr>
+	</tbody>
+	<tfoot></tfoot>
+	</table>
+	<table id="table2">
 		<caption>Students</caption>
 		<!-- <thead> -->
 		<tr>
@@ -32,7 +99,7 @@
 			<td>Mike</td>
 			<td> </td>
 			<td> mike@gmail.com</td>
-			<td>222345678</td>
+			<td id="red">222345678</td>
 		</tr>
 	</tbody>
 	<tfoot></tfoot>
