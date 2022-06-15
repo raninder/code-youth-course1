@@ -94,3 +94,22 @@ margin and padding exercises
 https://github.com/TheOdinProject/css-exercises/blob/main/margin-and-padding/01-margin-and-padding-1/desired-outcome.png?raw=true
 
 table exerciseshttp://www.codingfusion.com/Post/12-beautiful-HTML-table-examples-for-beginners-to
+
+color table colspanhttps://stackoverflow.com/questions/32159433/how-to-set-background-color-for-each-column-in-table
+
+flexbox tutorial
+https://www.codeinwp.com/blog/css-flexbox-tutorial/
+
+
+display: inline/block
+https://www.samanthaming.com/pictorials/css-inline-vs-inlineblock-vs-block/
+
+Absolte vs relative position
+https://stackoverflow.com/questions/10426497/position-relative-vs-absolute
+
+june15 today topics
+position
+box-sizing:border-box
+background-image:url('url')
+display
+flexbox
