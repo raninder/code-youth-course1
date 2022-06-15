@@ -113,3 +113,25 @@ box-sizing:border-box
 background-image:url('url')
 display
 flexbox
+
+
+Home  About Us  Contact Us
+
+Requirements:
+3 hyperlinks in list style
+appear in header(close to the top)
+appear in center
+list style set as none
+list display inline block
+
+
+Navbar
+<nav>
+<ul>
+<li> <a href....></li>
+</nav>
+.1
+.2
+.3
+
+1   2  3

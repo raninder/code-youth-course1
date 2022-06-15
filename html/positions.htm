@@ -9,12 +9,12 @@
 		body{
 			height:1000px;
 		}
-		/* .parent{
+		.parent{
 			position:relative;
 			margin:20px;
 			border:2px solid red;
 			width:50%;
-		} */
+		}
 		.div1{
 		
 			border:1px solid blue;
@@ -23,8 +23,9 @@
 		}
 		#div2{
 			/* position:relative; */
-			/* position:absolute; */
-			position:fixed;
+			position:absolute;
+			/* position:fixed; */
+			/* position:static; */
 			left:30px;
 			top:30px;
 			border:1px solid green;
@@ -36,7 +37,7 @@
 <body>
 	<div class="parent">
 		<div class="div1">One</div>
-		<div id="div2">Two</div>
+		<div id="div2">Two </div>
 		<div class="div1">Three</div>
 	</div>
 </body>
