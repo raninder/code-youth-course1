@@ -134,7 +134,7 @@ Navbar
 .2
 .3
 
-1   2  3
+.1   .2  .3
 
 flexbox
 https://medium.com/swlh/how-i-use-flexbox-to-create-a-one-page-website-81db78e61738
