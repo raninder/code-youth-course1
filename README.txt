@@ -139,3 +139,10 @@ Navbar
 flexbox
 https://medium.com/swlh/how-i-use-flexbox-to-create-a-one-page-website-81db78e61738
 https://www.codeinwp.com/blog/css-flexbox-tutorial/
+
+css style selectors
+https://www.w3schools.com/cssref/trysel.asp?selector=li:nth-child(1)
+
+https://www.cssportal.com/css-quiz/
+https://www.interviewbit.com/html-mcq/
+https://www.proprofs.com/quiz-school/story.php?title=html-css-quiz-2012
