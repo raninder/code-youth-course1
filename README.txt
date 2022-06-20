@@ -146,3 +146,7 @@ https://www.w3schools.com/cssref/trysel.asp?selector=li:nth-child(1)
 https://www.cssportal.com/css-quiz/
 https://www.interviewbit.com/html-mcq/
 https://www.proprofs.com/quiz-school/story.php?title=html-css-quiz-2012
+
+- print your name using -console.log, alert, document.write
+-convert weight from kgs to pounds
+-convert height from cm to ft and inches (https://www.thecalculatorsite.com/conversions/common/cm-to-feet-inches.php)
