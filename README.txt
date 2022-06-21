@@ -162,3 +162,23 @@ const num4= 12;
 const pi=3.142;
 let r=20;
 areac=pi*r*r;
+
+
+assignment operators
+comparison operators
+==  compares two values
+==== compares values as well as data types
+
+conditinal block
+if(condition){
+	//code if condition is true
+} else {
+	//code if condition is false
+}
+
+- ++, --, % operators
+-largest of two numbers
+-a person can vote or not
+-check if number is even or odd
+- check if leap year
+
