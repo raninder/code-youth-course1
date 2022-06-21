@@ -150,3 +150,15 @@ https://www.proprofs.com/quiz-school/story.php?title=html-css-quiz-2012
 - print your name using -console.log, alert, document.write
 -convert weight from kgs to pounds
 -convert height from cm to ft and inches (https://www.thecalculatorsite.com/conversions/common/cm-to-feet-inches.php)
+
+swapping two numbers using third number
+
+declare variables
+-var    -- global scope/function scope
+-let		-- block scope
+-const  --block scope
+
+const num4= 12;
+const pi=3.142;
+let r=20;
+areac=pi*r*r;
