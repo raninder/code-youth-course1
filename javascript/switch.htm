@@ -8,21 +8,27 @@
 </head>
 <body>	
 <script>
-let choice =1;
+let choice ='+';
 let num1 = 10, num2 = 5, result;
+
+// let choice = prompt("enter your choice")
 switch(choice) {
-	case 1: result=num1+num2;
+	case '+': result=num1+num2;
 					break;
 
-	case 2: result=num1-num2;
+	case '-': result=num1-num2;
 					break;
 	case 3: result=num1*num2;
 					break;
 	case 4: result=num1/num2;
 					break;
+				
 	default: console.log("no such choice");
 }
+// document.write("<h1>")
+// document.write(result);
 console.log(`result is: ${result}`);
+// document.write("</h1>")
 </script>
 </body>
 </html>
