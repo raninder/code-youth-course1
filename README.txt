@@ -183,6 +183,7 @@ if(condition){
 - check if leap year
 
 Math.random
+ num1=Math.floor(Math.random()*(end-start)+start);
 functions
 sum()
 sum
@@ -210,8 +211,8 @@ if (mon ==1 ||mon==3)....
 if(mon == 'jan' || mon == 'march')
 
 
-switch-- checking multiple conditions like replaceemnt for many if-else
-switch(condition){
+switch-- checking multiple options 
+switch(option){
 	case 1: 
 	case 2:
 }
