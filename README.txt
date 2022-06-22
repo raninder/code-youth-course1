@@ -167,7 +167,7 @@ areac=pi*r*r;
 assignment operators
 comparison operators
 ==  compares two values
-==== compares values as well as data types
+=== compares values as well as data types
 
 conditinal block
 if(condition){
@@ -182,3 +182,19 @@ if(condition){
 -check if number is even or odd
 - check if leap year
 
+Math.random
+functions
+sum()
+sum
+
+&& : both conditions true
+|| : any one or both conditions true
+! : not
+
+
+
+- check if number lies in range of 20 to 50 including 20 and 50.
+*number should be greater than equal to 20, 
+*number should be less that and equal to 50
+*-display number in range 20-40
+***if number not in range, display number is not in this range
