@@ -192,9 +192,26 @@ sum
 ! : not
 
 
+>
+>=
+<
+<=
+
+
 
 - check if number lies in range of 20 to 50 including 20 and 50.
 *number should be greater than equal to 20, 
 *number should be less that and equal to 50
-*-display number in range 20-40
+*-display number in range 20-50
 ***if number not in range, display number is not in this range
+
+-number of days in a month
+if (mon ==1 ||mon==3)....
+if(mon == 'jan' || mon == 'march')
+
+
+switch-- checking multiple conditions like replaceemnt for many if-else
+switch(condition){
+	case 1: 
+	case 2:
+}
