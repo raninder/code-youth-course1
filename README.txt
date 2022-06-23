@@ -210,9 +210,27 @@ sum
 if (mon ==1 ||mon==3)....
 if(mon == 'jan' || mon == 'march')
 
+-program to display day of the week using switch
+
+day =3
+switch(day){
+	case 1: day1 = "Monday"
+}
+console.log("day is:", day1);
+
 
 switch-- checking multiple options 
 switch(option){
 	case 1: 
 	case 2:
 }
+
+
+let a1 = prompt("enter number");
+a2
+a1+a2
+'34.5' '2'
+parseFloat(a1)    34.5
+parseInt(a1)   2    34
+
+
