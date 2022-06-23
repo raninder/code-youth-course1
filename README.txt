@@ -214,11 +214,16 @@ if(mon == 'jan' || mon == 'march')
 
 day =3
 switch(day){
-	case 1: day1 = "Monday"
+	case 1: day1= "Monday"
 }
 console.log("day is:", day1);
 
-
+if(mon=1 || mon=3 || mon =5){
+console.log("days-31");
+}
+else{
+	//code
+}
 switch-- checking multiple options 
 switch(option){
 	case 1: 
@@ -234,3 +239,43 @@ parseFloat(a1)    34.5
 parseInt(a1)   2    34
 
 
+
+loop- repeating a block of code n no. of times
+-for
+-while
+-do while
+
+
+for
+for(initilization;condition;updation)
+first 5 natural numbers  1 2 3 4 5    
+initilization(i)=1
+condition(i)<=5
+updation i=i+1 
+ex: odd numbers    1 3 5 7 9
+i=1
+i<=9
+i=i+2
+
+for(i=5; i<10; i++){
+	//code   console.log(i);
+	
+}
+console.log("end");
+
+
+i=5    5
+i=6   6<10 true			6
+i=7  7<10 	true 	7
+i=8 		8<10  true  8
+i=9			9<10 true  9
+i=10     i<10 false
+end
+
+initilization
+condition
+updation
+condition
+updation
+condition
+updation  till condition is true
