@@ -15,7 +15,7 @@ switch(month){
 	case 11:	num_of_days= 30;
 						break;
 
-	default: if(year%4===0){
+	case 2: if(year%4===0){
 			num_of_days= 29;
 	}
 	else {
