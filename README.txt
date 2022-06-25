@@ -279,3 +279,70 @@ condition
 updation
 condition
 updation  till condition is true
+
+
+For:
+-sum of n natural numbers
+1+2+3+4+5+6+7... numbers
+0+1
+1+2  =3
+3+3  =6
+6+4
+10+5
+15
+
+sum=1
+sum=sum+2
+sum=sum+3
+
+sum =a+b
+let c	
+sum = sum+c
+i=1  i<=10  i++
+i+ (i+1) + (i+2) +(i+3) 
+sum= sum+i;
+
+
+factorial
+4!  = 4*3*2*1=24
+
+5!=  5x4x3x2x1
+     1x2x3x4x5 =120
+a=1
+b=2
+fact=axb  3
+fact = fact * c  
+fact  =fact *d
+6x5
+30 X 4
+120 X 3
+360
+i=6 i>=1  i--
+fact=
+
+
+
+for(initialization; condition; updation){
+	//code 
+}
+
+while
+
+initilization
+while(condition){
+	//code
+	updation
+}
+
+1-10
+for(let i=1; i<=10;i++)
+
+let i=1;
+while(i<=10){
+	console.log(i);  
+	i++;   
+}
+
+
+//print 10 numbers using while
+// multiplication table of a number using for
