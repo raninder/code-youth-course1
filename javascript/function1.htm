@@ -20,12 +20,13 @@ function hello(){
 	//add two numbers
 	function add(a,b){
 		let c=a+b;
-		console.log("sum:"+c);
+		// console.log("sum:"+c);
+		return c;
 	}
 
 	function square(a){
-		let res = a*a;
-		console.log("square of a number is",res);
+		// let res = a*a;
+		console.log("square of a number is",(a*a));
 	}
 
 	function greater(a,b){
@@ -40,8 +41,10 @@ function hello(){
 	display(4);
 	display(10);
 	display(20);
-	add(2,4);
-	add(10,20);
+	// let res = add(2,4);
+	// console.log("sum:", res);
+	console.log("sum:", add(2,4));
+	// add(10,20);
 </script>
 </body>
 </html>

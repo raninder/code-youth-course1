@@ -390,6 +390,25 @@ block of code to perform a specific task
 		square(3)   -9
 		3x3
 
+		when function is not returning a value,
+		function call
+		function_name(params)
+
+		when function is returning a value,
+		function call
+		let var1 = function_name(parameters);
+		console.log("   ", var1);
+		or
+
+		console.log("   ", function_name(params));
+
+		when function purpose is only to display, then can skip return statements
+		otherwise whenever a function is doing any calculation/operation,
+		then use return statement inside a function
+		a function can only return one value
+		any stat after return is not executed
+
+
 		Write function to input and display your name 
 		write functions to perform various arithmetic operations on numbers 
 		write function to perorm average of 5 marks
