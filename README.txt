@@ -346,3 +346,50 @@ while(i<=10){
 
 //print 10 numbers using while
 // multiplication table of a number using for
+
+x =true;
+x = (name=="john")
+if(!x){
+	//
+}
+
+if(a==b){
+	//true
+}
+else {
+	//false
+}
+
+
+while   vs do-while
+
+functions-
+block of code to perform a specific task
+
+---function declaration
+
+			function name_of_function(parameters){
+				//statements
+			}
+
+			a  
+
+			let a=36;
+			let b =a +4;
+			console.log("b:",b);
+			a()
+----function call
+    name_of_function(args)
+
+
+		write function to find square of a given number
+		write function to find greater of two numbers
+
+		input:greater(3,6)    output: 6
+		greater(4,9,2)
+		square(3)   -9
+		3x3
+
+		Write function to input and display your name 
+		write functions to perform various arithmetic operations on numbers 
+		write function to perorm average of 5 marks
