@@ -411,4 +411,10 @@ block of code to perform a specific task
 
 		Write function to input and display your name 
 		write functions to perform various arithmetic operations on numbers 
-		write function to perorm average of 5 marks
+		write function to perform average of 5 marks
+		avg(10,20,45,22,77)  nodejs
+
+28-06-2022
+		- return statement
+		-local and global scope
+		- arrow functions ES6
