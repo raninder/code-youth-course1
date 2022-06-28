@@ -10,19 +10,22 @@
 	<script>
 		// program to add two numbers
 // declaring a function
-function add(a, b) {
+function add(a=10, b=5) {
     return a + b;
 }
 
 // take input from the user
-let number1 = parseFloat(prompt("Enter first number: "));
-let number2 = parseFloat(prompt("Enter second number: "));
+// let number1 = parseFloat(prompt("Enter first number: "));
+// let number2 = parseFloat(prompt("Enter second number: "));
 
+let number1=10, number2=20;
 // calling function
 let result = add(number1,number2);
 
 // display the result
 console.log("The sum is " + result);
+
+console.log("default", add())
 	</script>
 </body>
 </html>
