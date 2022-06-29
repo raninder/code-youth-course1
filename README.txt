@@ -418,3 +418,12 @@ block of code to perform a specific task
 		- return statement
 		-local and global scope
 		- arrow functions ES6
+
+29-06-2022
+		-arrays
+		index 0  n-1   n number of elements
+
+
+		- write a program to find square of each array element
+
+		a*a
