@@ -16,7 +16,7 @@ console.log(arr1[arr1.length-1]);
 let count=0;
 //for to access all array elements
 for(let i=0;i<arr1.length;i++){
-	console.log(arr1[i]);   // ==    value     === value data type
+	console.log(arr1[i]*arr1[i]);   // ==    value     === value data type
 	if(arr1[i]%2==0){
 			count++;   //1  2   5
 	}

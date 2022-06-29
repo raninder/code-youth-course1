@@ -424,6 +424,27 @@ block of code to perform a specific task
 		index 0  n-1   n number of elements
 
 
+x*x 
+arr[0]*arr[0]
 		- write a program to find square of each array element
-
+		arr =[3, 5, 6]
+		array element  --arr[i]
+		element position - -- i
+		9
+		25
+		36
+1. declare an array
+2. for loop to access each array element
+		perform operation on each array element
 		a*a
+
+
+		- write a program to search an element in an array and display its position
+
+		list = [3,2,6,9,2];
+		let num = 9
+		for................
+				if()
+
+				i
+				
