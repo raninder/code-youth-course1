@@ -447,4 +447,5 @@ arr[0]*arr[0]
 				if()
 
 				i
-				
+
+				- check if an elment is greater than 10 and display that number in array
