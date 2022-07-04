@@ -449,3 +449,27 @@ arr[0]*arr[0]
 				i
 
 				- check if an elment is greater than 10 and display that number in array
+
+
+js quiz
+https://www.javatpoint.com/javascript-quiz
+
+
+objects
+-key value pairs
+-access object values in two notation
+objectName.key
+objectname["key"]
+
+
+
+create an object student with properties:
+id,
+name,
+address,  another object
+email,
+phone
+marks --array [20,45,30,12]
+
+in string form display:
+student John with id(1) and country(US) got (45) marks in first subject
