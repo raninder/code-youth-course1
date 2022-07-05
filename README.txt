@@ -454,6 +454,10 @@ arr[0]*arr[0]
 js quiz
 https://www.javatpoint.com/javascript-quiz
 
+function add(a,b)
+
+add(2,3)
+
 
 objects
 -key value pairs
@@ -462,6 +466,8 @@ objectName.key
 objectname["key"]
 
 
+
+let a=null;
 
 create an object student with properties:
 id,
@@ -473,3 +479,26 @@ marks --array [20,45,30,12]
 
 in string form display:
 student John with id(1) and country(US) got (45) marks in first subject
+
+let, var, const
+
+The Reading List
+Keep track of which books you read and which books you want to read!
+
+Create an object that describes a book and has properties for the title (a string), author (a string), and alreadyRead (a boolean indicating if you read it yet).
+For each book, log the book title and book author like so: "The Hobbit by J.R.R. Tolkien".
+Now use an if/else statement to change the output depending on whether you read it yet or not. If you read it, log a string like 'You already read "The Hobbit" by J.R.R. Tolkien', and if not, log a string like 'You still need to read "The Lord of the Rings" by J.R.R. Tolkien.'
+
+
+
+book={
+	ttile:
+	author:
+ alreadyRead: t/f
+ display :  title by author
+ showstatus: if alreadyReady
+}
+
+
+javascript notes and exercises
+https://www.tutorialsandyou.com/javascript/javascript-arrow-function-exercises-and-practice-questions-73.html
