@@ -502,3 +502,13 @@ book={
 
 javascript notes and exercises
 https://www.tutorialsandyou.com/javascript/javascript-arrow-function-exercises-and-practice-questions-73.html
+
+
+DOM 
+- find HTML elements
+	- document.getElementByID("id")
+
+	list
+	<ul>
+	<l> Red </li>
+	<li> green
