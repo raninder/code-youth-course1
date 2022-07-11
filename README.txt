@@ -512,3 +512,12 @@ DOM
 	<ul>
 	<l> Red </li>
 	<li> green
+
+
+
+link(google) 
+button(change)
+link yahoo
+
+for accessing/changing one element ->  getElementByID or querySelector
+for accessing/changing multiple elements -> querySelectorAll
