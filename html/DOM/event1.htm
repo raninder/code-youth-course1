@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<p></p>
+	<button onclick="show()" ondblclick="alert('Welcome')" onmouseover="fn()">Click</button>
+	<!-- ondblclick="alert('Welcome')" onmouseover="fn()"> -->
+	
+	<script>
+		function show(){
+			// alert("event fired");
+			const p=document.querySelector("p");
+			p.innerHTML = "Code Youth";
+			p.style.color="red";
+
+		}
+		function fn(){
+			// alert("hello");
+			document.querySelector("button").style.padding="10px";
+		}
+	</script>
+</body>
+</html>
