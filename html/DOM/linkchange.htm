@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<img src="img1.jpg" alt="Flower" height="200">
+	<a href="http://www.google.com">Google</a>
+	<a href="http://amazon.com">Amazon</a>
+	<button onclick="change()">Click</button>
+	<script>
+		function change(){
+			const anchor = document.querySelector("a");
+			// console.log(anchor);
+			anchor.href="http://yahoo.com";
+			anchor.innerHTML="Yahoo";
+
+			const anchors = document.querySelectorAll("a");
+			for(let i=0; i<anchors.length;i++){
+				// console.log(anchors[i]);
+				anchors[i].style.background="beige";
+			}
+
+			const img1=document.querySelector("img");
+			img1.height ="300"
+			img1.src= "img2.jpg"
+
+			
+		}
+	</script>
+</body>
+</html>
