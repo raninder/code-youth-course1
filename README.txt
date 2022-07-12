@@ -521,3 +521,17 @@ link yahoo
 
 for accessing/changing one element ->  getElementByID or querySelector
 for accessing/changing multiple elements -> querySelectorAll
+
+Events-
+3 ways
+
+example
+
+https://www.tutorialstonight.com/js/js-dom-events.php
+
+1. Create a heading element With some content
+	Change its color to purple when placed mouse over it
+	Use addEventListener for that
+2. Create a paragraph element and change its background colour to gray when click over it using p.onclick
+
+3. Create a button, change its text color white and background color black when double clicked—use any even handling way
