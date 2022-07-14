@@ -21,7 +21,7 @@
 </head>
 
 <body>
-	<form name="reg" action="actionform.htm" onsubmit="return validate()">
+	<form name="reg" action="actionform.htm" onsubmit="function1(event)">
 		<div>
 			<label>Name</label>
 			<input type="text" name="uname" id="name" value="enter name"/> 
@@ -49,6 +49,10 @@
 		// 	name3.style.background="green"
 		// }
 
+		function function1(event){
+			event.preventDefault();
+			alert("hi");
+		}
 
 		name3.addEventListener("focus",()=>
 			name3.style.background="cyan"
@@ -72,6 +76,7 @@
 			password.focus();
 			return false;
 		}
+		
 		return true;
 	}
 		
