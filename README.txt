@@ -527,6 +527,8 @@ Events-
 
 example
 
+arr1 = [{ob1},{2},{3}]
+
 https://www.tutorialstonight.com/js/js-dom-events.php
 
 1. Create a heading element With some content
