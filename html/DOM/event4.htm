@@ -1,0 +1,18 @@
+<p class="tomato">This has "mouseover" event listner.</p>
+<button id="button" onclick="removeEvent()">Remove Event listner</button>
+
+<script>
+  var element = document.querySelector(".tomato");
+  element.addEventListener("mouseover", createAlert);
+  function createAlert(){
+    alert("Event Triggered!");
+  }
+  function removeEvent(){
+    element.removeEventListener("mouseover",createAlert);
+  }
+</script>
+
+
+
+
+

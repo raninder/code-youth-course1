@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>New element</title>
+</head>
+<body>
+	<div id="div1">
+
+	</div>
+	<p>First Paragraph</p>
+	<!-- element.createElement("tagname") -->
+	<script>
+		const para1 = document.createElement("p");
+		para1.innerHTML="new paragraph";
+		para1.style.fontFamily="courier";
+		para1.style.color="purple";
+		console.log(para1);
+		document.body.appendChild(para1);
+
+		const div=document.getElementById("div1");
+		const heading = document.createElement("h1");
+		heading.innerText="new heading";
+		div.appendChild(heading);
+		// document.querySelector("ul").appendChild(listEle)
+	</script>
+</body>
+</html>
+
+List
+one
+two
+three
+
+
+add four:
+craete <li></li>
+add li to ul

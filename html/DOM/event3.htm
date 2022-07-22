@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Event3</title>
+</head>
+<body>
+	<h1></h1>
+	<p></p>
+	
+	<button ondblclick="removeEvent()">Click</button>
+	<!-- onclick = "show()" ondblclick="alert('Welcome')" onmouseover="fn()"> -->
+	
+	<script>
+		const button = document.querySelector("button");
+
+		// button.addEventListener("click",function(){
+		// 	const p=document.querySelector("p");
+		// 	p.innerHTML = "Code Youth";
+		// 	p.style.color="green";
+		// });
+		const heading=document.querySelector("h1"); //global variable
+		button.addEventListener("click",change);
+		// button.addEventListener("click",change2);
+		function change(){	
+			heading.innerHTML = "Course";
+			heading.style.color="blue";
+		};
+		function removeEvent(){
+			button.removeEventListener("click",change);
+		}
+		//anonymous function
+		
+		button.addEventListener("dblclick",function(){
+			heading.style.color="maroon";
+		});
+
+	
+	</script>
+</body>
+</html>

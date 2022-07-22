@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<style>
+		label{
+			display:inline-block;
+			width:100px;
+			/* text-align: right; */
+		}
+		div{
+			margin-bottom: 10px;
+		}
+		div.btn{
+			margin-left:40px;
+		}
+	</style>
+</head>
+
+<body>
+	<form name="reg" action="actionform.htm" onsubmit="function1(event)">
+		<div>
+			<label>Name</label>
+			<input type="text" name="uname" id="name" value="enter name"/> 
+		</div>
+		<div>
+			<label>Email</label>
+			<input type="email" name="email" id="email"/> 
+		</div>
+		<div>
+			<label>Password</label>
+			<input type="password" name="pswd" id="pswd"/> 
+		</div>
+		<div class="btn">
+			<input type="submit" value="submit" />
+			<input type="reset" value="reset" />
+		</div>
+	</Form>
+	<script>
+		// const name1 = document.getElementById("name");
+		// console.log("name1",name1);
+		// const name2 = document.querySelector("#name");
+		// console.log("name2",name2);
+		const name3= document.forms["reg"]["uname"];
+		// name3.onfocus = function(){
+		// 	name3.style.background="green"
+		// }
+
+		function function1(event){
+			event.preventDefault();
+			alert("hi");
+		}
+
+		name3.addEventListener("focus",()=>
+			name3.style.background="cyan"
+		 )
+		// name3.addEventListener("focus",function(){
+		// 	name3.style.background="cyan"
+		// } )
+		name3.addEventListener("blur",function(){
+			name3.style.background="white"
+		} )
+		name3.onchange = function(){
+			name3.style.color="red";
+		
+			console.log(name3.value)
+				name3.value= name3.value.toUpperCase();
+		}
+		function validate(){
+		const password = document.getElementById("pswd");
+		if(password.value.length<5){
+			alert("passowrd should be minimum of 5 characters");
+			password.focus();
+			return false;
+		}
+		
+		return true;
+	}
+		
+	</script>
+</body>
+</html>

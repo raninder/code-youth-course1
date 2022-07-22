@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		/* #one{
+			color:green;
+		} */
+	</style>
+</head>
+<body>
+	<div id="div1">
+	<h1 id="heading">Welcome to Code Youth</h1>
+	<h2 class="style">Heading2</h2>
+	<p class="style"> This is first paragraph</p>
+</div>
+	<p>This is second paragraph</p>
+	<p class="style">This is third paragraph</p>
+	<a href="https://google.com" target="_blank" >Google</a>
+	<button onclick="change()">change</button>
+	<script>
+		function change(){
+			const para = document.getElementsByClassName("style");
+			
+			// para[0].style.color="red";
+			// para[1].style.color="green";
+			for(let i=0; i<para.length;i++){
+				para[i].style.color="blue";
+				console.log(para[i].innerHTML);
+			}
+		// const divele=document.querySelector(h1,p)
+
+		document.querySelector("[href]").style.background =  "yellow";
+		}
+	</script>
+</body>
+
+</html>
+

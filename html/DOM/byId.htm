@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		/* #one{
+			color:green;
+		} */
+		.head{
+		border: 2px solid red;
+		width:50%;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="heading" onclick="change1()" title="heading">Welcome to Code Youth</h1>
+	<p id="one"> This is first paragraph</p>
+	<p title="heading">This is second paragraph</p>
+	<button onclick="change()">change</button>
+	<script>
+		function change(){
+		
+		document.getElementById("one").innerHTML="Changed paragraph";
+		const head=document.getElementById("heading");
+		console.log(head);
+		head.style.color="Red";
+		head.style.fontSize="20px";
+		head.style.fontWeight="bold"
+		head.innerHTML="New heading";
+		// head.className="head";
+		}	
+		function change1(){
+		const head=document.getElementById("heading");
+		head.setAttribute("class", "head");
+		// head.className="head";
+		// head.title = "heading";
+		// head.setAttribute("title","heading");
+		}
+	</script>
+</body>
+
+</html>
+
+
+const a=3;
+const a = [3];
+a[0]
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<p>First Paragraph</p>
+	<!-- <p>New Paragraph</p> -->
+	<p id="sec"> Second Paragraph</p>
+
+	<script>
+		const para3 = document.createElement("p");
+		para3.innerText="Third Paragraph";
+		para3.id="para3";
+		para3.className = "pclass";
+		// console.log(para3);
+		document.body.appendChild(para3);	
+
+
+	
+		//a tag in p tag
+		const anc = document.createElement("a");
+		anc.href ="http://yahoo.com";
+		anc.innerHTML= "Yahoo"
+		document.querySelector("#para3").appendChild(anc);
+		// document.querySelector("#para3").appendChild(anc);	
+		// 
+		// document.body.appendChild(para3);
+
+		const para4 = document.createElement("p");
+		para4.innerHTML = "New Paragraph";
+		console.log("para4",para4);
+		// document.body.appendChild(para4);
+		const sec = document.querySelector("#sec");
+		document.body.insertBefore(para4,sec);		
+
+		// sec.remove();
+		document.body.removeChild(sec);
+
+
+
+
+	</script>
+</body>
+</html>
