@@ -1,0 +1,186 @@
+<!DOCTYPE html>  
+ <html lang="en">  
+ <head>  
+   <meta charset="UTF-8">  
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+   <title>Document</title>  
+   <link rel="stylesheet" href="./styles.css">  
+   <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">  
+	 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	 <script src="script.js"></script>
+	</head>  
+ <body>  
+   <header>  
+     <div class="logo"><a href="#">ShoPperZ</a></div>  
+     <div class="menu">  
+       <!-- <a href=""><ion-icon name="close" class="close"></ion-icon></a>   -->
+       <!-- <ul>  
+         <li><a href="#" class="under">HOME</a></li>  
+         <li><a href="#" class="under">SHOP</a></li>  
+         <li><a href="#" class="under">OUR PRODUCTS</a></li>  
+         <li><a href="#" class="under">CONTACT US</a></li>  
+         <li><a href="#" class="under">ABOUT US</a></li>  
+       </ul>   -->
+     </div>  
+     <div class="search">  
+       <input type="search" placeholder="search products" id="search">
+			 <button onclick="searchItem()"> search</button>  
+         <!-- <ion-icon class="s" name="search"></ion-icon>   -->
+       
+     </div>  
+     <div class="heading">  
+       <ul>  
+         <li><a href="#" class="under">HOME</a></li>  
+         <li><a href="#" class="under">SHOP</a></li>  
+         <li><a href="#" class="under">OUR PRODUCTS</a></li>  
+         <li><a href="#" class="under">CONTACT US</a></li>  
+         <li><a href="#" class="under">ABOUT US</a></li>  
+       </ul>  
+     </div>  
+     <div class="heading1">  
+       <ion-icon name="menu" class="ham"></ion-icon>  
+     </div>  
+   </header>  
+   <section>  
+     <div class="section">  
+       <div class="section1">  
+         <!-- <div class="img-slider">   -->
+           <img src="https://images.pexels.com/photos/6347888/pexels-photo-6347888.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"  
+             alt="" class="img">  
+           <!-- <img src="https://images.pexels.com/photos/3962294/pexels-photo-3962294.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"  
+             alt="" class="img">  
+           <img src="https://images.pexels.com/photos/2292953/pexels-photo-2292953.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"  
+             alt="" class="img">  
+           <img src="https://images.pexels.com/photos/1229861/pexels-photo-1229861.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"  
+             alt="" class="img">  
+           <img src="https://images.pexels.com/photos/1598505/pexels-photo-1598505.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"  
+             alt="" class="img">   -->
+         <!-- </div>   -->
+       </div>  
+       <div class="section2">  
+         <div class="items">  
+           <div class="item">  
+             <div class="img img1"><img  
+                 src="https://images.pexels.com/photos/1464625/pexels-photo-1464625.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"  
+                 alt=""></div>  
+								 <!-- <input tyep="hidden" value=1> -->
+             <div class="name" id="n1">SHOES</div>  
+             <div class="price" id="p1">$5</div>  
+             <div class="info">Lorem ipsum dolor sit amet consectetur.</div> 
+						 <!-- <button class="button" onclick="addtocart(document.querySelector('#n1').innerText,document.querySelector('#p1').innerText)">Add to cart</button>  -->
+           <button class="button" onclick="addtocart()">Add to cart</button>
+            </div>  
+           <div class="item">  
+             <div class="img img1"><img  
+                 src="https://images.pexels.com/photos/3649765/pexels-photo-3649765.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"  
+                 alt=""></div>  
+								
+             <div class="name" id="n2">MEN's T-SHIRT</div>  
+             <div class="price" id="p2">$6.34</div>  
+             <div class="info">Lorem ipsum dolor sit.</div> 
+						 <button class="button" onclick="addtocart(document.querySelector('#n2').innerText,document.querySelector('#p2').innerText)">Add to cart</button> 
+           </div>  
+           <div class="item">  
+             <div class="img img1"><img  
+                 src="https://media.istockphoto.com/photos/folded-blue-jeans-on-a-white-background-modern-casual-clothing-flat-picture-id1281304280"  
+                 alt=""></div>  
+             <div class="name" id="n3">JEANS</div>  
+             <div class="price" id="p3">$9</div>  
+             <div class="info">Lorem ipsum dolor sit amet.</div>
+             <!-- addtocart(n3,p3) -->
+						 <button class="button" onclick="addtocart(document.querySelector('#n3').innerText,document.querySelector('#p3').innerText)">Add to cart</button>  
+           </div>  
+           <div class="item">  
+             <div class="img img1"><img  
+                 src="https://images.pexels.com/photos/8839887/pexels-photo-8839887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"  
+                 alt=""></div>  
+             <div class="name" id="n4">WATCH</div>  
+             <div class="price" id="p4">$9.1</div>  
+             <div class="info">Lorem ipsum dolor sit.</div>  
+						 <button class="button" onclick="addtocart(document.querySelector('#n4').innerText,document.querySelector('#p4').innerText)">Add to cart</button>
+           </div>  
+           <div class="item">  
+             <div class="img"><img  
+                 src="https://images.pexels.com/photos/6858618/pexels-photo-6858618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"  
+                 alt=""></div>  
+             <div class="name" id="n5">SMART PHONE</div>  
+             <div class="price" id="p5">$20</div>  
+             <div class="info">Lorem ipsum dolor sit.</div>  
+						 <button class="button" onclick="addtocart(document.querySelector('#n5').innerText,document.querySelector('#p5').innerText)">Add to cart</button>
+           </div>  
+           <div class="item">  
+             <div class="img"><img  
+                 src="https://images.pexels.com/photos/5552789/pexels-photo-5552789.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"  
+                 alt=""></div>  
+             <div class="name" id="n6">TELEVISION</div>  
+             <div class="price" id="p6">$18</div>  
+             <div class="info">Lorem ipsum dolor sit amet consectetur.</div>  
+						 <button class="button" onclick="addtocart(document.querySelector('#n6').innerText,document.querySelector('#p6').innerText)">Add to cart</button>
+           </div> 
+       </div>  
+     </div>  
+   </section>  
+	 <h1> Cart</h1>
+	 <div class="cart"></div>
+	 
+
+   <footer>  
+     <div class="footer0">  
+       <h1>ShoPperZ</h1>  
+     </div>  
+     <div class="footer1 ">  
+       Connect with us at<div class="social-media">  
+         <a href="facebook.com/shopperz">  
+           <ion-icon name="logo-facebook"></ion-icon>  
+         </a>  
+         <a href="#">  
+           <ion-icon name="logo-linkedin"></ion-icon>  
+         </a>  
+         <a href="#">  
+           <ion-icon name="logo-youtube"></ion-icon>  
+         </a>  
+         <a href="#">  
+           <ion-icon name="logo-instagram"></ion-icon>  
+         </a>  
+         <a href="#">  
+           <ion-icon name="logo-twitter"></ion-icon>  
+         </a>  
+       </div>  
+     </div>  
+     <!-- <div class="footer2">  
+       <div class="product">  
+         <div class="heading">Products</div>  
+         <div class="div">Sell your Products</div>  
+         <div class="div">Advertise</div>  
+         <div class="div">Pricing</div>  
+         <div class="div">Product Buisness</div>  
+       </div>  
+       <div class="services">  
+         <div class="heading">Services</div>  
+         <div class="div">Return</div>  
+         <div class="div">Cash Back</div>  
+         <div class="div">Affiliate Marketing</div>  
+         <div class="div">Others</div>  
+       </div>  
+       <div class="Company">  
+         <div class="heading">Company</div>  
+         <div class="div">Complaint</div>  
+         <div class="div">Careers</div>  
+         <div class="div">Affiliate Marketing</div>  
+         <div class="div">Support</div>  
+       </div>  
+       <div class="Get Help">  
+         <div class="heading">Get Help</div>  
+         <div class="div">Help Center</div>  
+         <div class="div">Privacy Policy</div>  
+         <div class="div">Terms</div>  
+         <div class="div">Login</div>  
+       </div>  
+     </div>   -->
+     <div class="footer3">Copyright © <h4>ShoPperZ</h4> 2021-2028</div>  
+   </footer>  
+   <!-- <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>   -->
+   <!-- <script src="./ecommerce.js"></script>   -->
+ </body>  
+ </html>  
